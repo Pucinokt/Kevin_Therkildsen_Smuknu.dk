@@ -370,6 +370,7 @@ li {
 }
 
 /* ------------  Product List End ---------- */
+/* ------------  Featured Produkt Media Queries Start ---------- */
 @media only screen and (min-width: 728px) and (max-width: 1024px) {
   .Featured-Products .Featured-wrap h1 {
     font-size: 65px;
@@ -378,6 +379,7 @@ li {
     font-size: 65px;
   }
 }
+/* ------------  Featured Produkt Media Queries End ---------- */
 /* ------------ Featured Products End ---------- */
 /* ------------ Sundhed Hero Start ---------- */
 .Sundhed {

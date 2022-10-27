@@ -1,4 +1,5 @@
-// accordion start (taget inspirtation fra w3schools og ændret heri)
+// accordion start 
+// (taget inspirtation fra w3schools og ændret heri)
 
 var acc = document.getElementsByClassName("accordion");
 var i;

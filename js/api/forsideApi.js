@@ -1,4 +1,4 @@
-// Featured Products Start
+// Fremhævede produkter Start
 
 Promise.all([fetch("https://smuknu.webmcdm.dk/products",
 
@@ -30,5 +30,5 @@ Promise.all([fetch("https://smuknu.webmcdm.dk/products",
         }
         ),
     ]);
-// Featured Products End
+// Fremhævede produkter End
 

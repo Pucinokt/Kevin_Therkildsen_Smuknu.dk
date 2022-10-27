@@ -1,4 +1,8 @@
-// 7-1 Sass Architecture bliver brugt her
+
+// 7-1 Sass Architecture har jeg valgt at bruge her som betyder 7 mapper og 1 fil.
+ 
+// 7 Mapper har deres meningsfulde titler, som inkluderer giver mening for indholdet. 
+// Udenfor de 7 mapper vil 1 fil indeholde alle uddragene fra 7 mapper og kompilere den til 1 CSS-fil.
 
 // vaerktoejer
 @import "vaerktoejer/mixins";

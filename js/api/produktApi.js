@@ -1,5 +1,4 @@
-
-// Products Start
+// Produkt Start
 
 Promise.all([fetch("https://smuknu.webmcdm.dk/products",
 
@@ -31,4 +30,4 @@ Promise.all([fetch("https://smuknu.webmcdm.dk/products",
     }
     ),
 ]);
-// Products End
+// Produkt End

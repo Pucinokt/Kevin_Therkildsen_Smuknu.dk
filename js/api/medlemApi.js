@@ -1,3 +1,5 @@
+// Medlem Start
+
 // mine variabler
 const onSubmit = use => {
     use.preventDefault(); 
@@ -54,9 +56,11 @@ const onSubmit = use => {
 //  prøve igen.
 function retry(){
      document.querySelector("#valid").style.display="none"
-}
-        
+}       
+// Medlem End
 
+
+// Scrollto function Start
 // Her fortæller jeg at den skal gemme hvorhenne jeg er på siden.
 document.addEventListener("DOMContentLoaded",(
     function(){
@@ -69,3 +73,4 @@ window.onbeforeunload = function()
 {
     localStorage.setItem("scroll",window.scrollY)
 };
+// Scrollto function End

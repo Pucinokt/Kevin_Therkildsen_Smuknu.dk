@@ -1,4 +1,5 @@
-// template literal
+// Template literal - her laver jeg en const ved navn navigation, 
+// og fortæller at tingene i backtics skal smides i #navbar id'et ved innerHTML
 const navigation = document.querySelector('#navbar');
 navigation.innerHTML += `
 <header id="nav">
@@ -27,11 +28,12 @@ navigation.innerHTML += `
 
   </header>
 `
+// Template literal END
 
-// burgermenu start
+// Burgermenu start
 // functionen her i javascript fungere når on click på burgermenuen svg i index html så reagere
 // og tilføjes classen "show" til navbaren
 function menuShow() {
   document.querySelector("#menu").classList.toggle("show");
   }
-  // burgermenu end
+  // Burgermenu end

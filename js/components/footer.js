@@ -1,3 +1,5 @@
+// Template literal - her laver jeg en const ved navn navigation, 
+// og fortæller at tingene i backtics skal smides i #navbar id'et ved innerHTML
 const footer = document.querySelector('#footer')
 footer.innerHTML += 
     `<footer class="footer">
@@ -18,3 +20,4 @@ footer.innerHTML +=
     </div>
   
   </footer>`
+  // Template literal END
