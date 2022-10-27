@@ -32,6 +32,13 @@
         align-items: center;
         flex-direction: column;
         margin-top: 25px;
+
+        a{
+            color: $secondary-color;
+            &:hover{
+                color: $primary-color;
+            }
+        }
         
         
     }

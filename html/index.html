@@ -10,12 +10,15 @@
     <title>Smuknu - Forside</title>
 </head>
 <body>
+  <!-- jeg har lavet alt mit html på index uden brug af Template literals 
+    da jeg tænkte det ville være bedst i forhold til SEO. 
+    vedligeholdelses mæssigt er det stadig lige til -->
+
 <!----------------  Navigation Start  ---------------->
 <header id="nav">
 
     <div class="nav-container">
       <a href="index.html"><img class="Logo" src="../assets/logo/smuknu_logo.png" alt="logo ModelIN"></a>
-
       <nav id="menu">
         <ul>
           <li><a href="index.html" >Forside</a></li>
@@ -24,6 +27,7 @@
           <li><a href="medlem.html">Bliv Medlem</a></li>
         </ul>
       </nav>
+
       <!-- kaldt function fra javascript i navbar.js, at on click skal funktion reagerer 
        og tilføje classen "show" til navbaren -->
       <div onclick="menuShow()" id="burger">
@@ -72,7 +76,7 @@
     <h1>SKØNHEDER</h1>
     <p>UDTALER</p>
   </div>
-
+<!----------------  Review 1 Start  ---------------->
   <div class="review1">
   <img src="../assets/reviews/phoebe_larsen.jpg" alt="phoebe_larsen">
     <p class="review-txt-1">Jeg døjer rigtig meget med <br> uren hud, og har prøvet alt muligt.
@@ -83,14 +87,14 @@
         plus er, at den er dejlig fugtgivende.
     </p>
     <br>
-
       <div class="review-heading-1">
         <h1>Phoebe Larsen</h1>
         <p>Tilfreds Kunde</p>
       </div>
     </div>
-
-        <hr>
+<!----------------  Review 1 End  ---------------->
+<hr>
+<!----------------  Review 2 Start  ---------------->
   <div class="review2">
   <img src="../assets/reviews/kathrine_udgaard.jpg" alt="">
     <p class="review-txt-2">Den hidtil bedste oplevelse med læbestifter! <br>
@@ -101,16 +105,14 @@
       <br>Den er et absolut "must have" i min håndtaske!!
     </p>
     <br>
-
       <div class="review-heading-2">
         <h1>Kathrine Udgaard</h1>
         <p>Tilfreds Kunde</p>
       </div>
     <div>
-
+<!----------------  Review 2 End  ---------------->
 </section>
-
-    <hr class="r-line">
+<hr class="r-line">
 <!----------------  Reviews End  ---------------->
 
 
@@ -148,8 +150,8 @@
     </ul>
 
     <ul class='footer-ul footer-item_2'>
-        <li> mail@smuk.nu</li>
-        <li>+45 123 345 33</li>
+        <li><a href="mailto:mail@smuk.nu">mail@smuk.nu</a></li>
+        <li><a href="tel:+45 123 345 33"> +45 123 345 33 </a></li>
     </ul>
   </div>
 

@@ -12,8 +12,8 @@ footer.innerHTML +=
       </ul>
   
       <ul class='footer-ul footer-item_2'>
-          <li> mail@smuk.nu</li>
-          <li>+45 123 345 33</li>
+      <li><a href="mailto:mail@smuk.nu">mail@smuk.nu</a></li>
+      <li><a href="tel:+45 123 345 33"> +45 123 345 33 </a></li>
       </ul>
     </div>
   

@@ -81,6 +81,12 @@ body {
   flex-direction: column;
   margin-top: 25px;
 }
+.footer .footer-wrap .footer-item_2 a {
+  color: #000;
+}
+.footer .footer-wrap .footer-item_2 a:hover {
+  color: #FA96AA;
+}
 
 .fa-brands:hover {
   color: #FA96AA;
@@ -480,7 +486,7 @@ li {
   padding-bottom: 15px;
 }
 
-.accordion:focus .fa-solid {
+.accordion.active .fa-solid {
   color: #FA96AA;
 }
 
