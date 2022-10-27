@@ -1,0 +1,52 @@
+/* ------------ Products Hero Start ---------- */
+.Produkter{
+    background-image: url(../assets/headers/products.jpg);
+    height: 700px;
+    @include cover-background;
+    @include flex-center;
+
+    .Produkter-wrap{
+        margin-top: 100px;
+        color: $background;
+        height: auto;
+        background-color: #000000CC;
+        padding: 60px 30px;
+        font-family:$font;
+        text-align: center;
+        animation: fadeup 1s ease-in-out;
+        
+        @keyframes fadeup {
+            from{
+                opacity: 0;
+                transform: translateY(30%);
+            }
+            to{
+                opacity: 1;
+            } 
+        }
+    
+
+        h1{
+            font-size: 54px;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: $bodytext;
+            line-height: 23px;
+            padding: 20px;
+        } 
+        
+    }
+}
+/* ------------ Products Hero Media Queries Start ---------- */
+@media (min-width: 1024px) {
+    .Produkter-wrap{
+        position: absolute;
+        left: 30px;
+        padding: 60px 60px !important;
+
+    }
+}
+/* ------------ Products Hero Media Queries End ---------- */
+/* ------------ Products Hero End ---------- */

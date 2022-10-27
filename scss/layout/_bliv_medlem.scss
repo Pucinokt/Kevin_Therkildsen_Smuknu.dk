@@ -1,0 +1,53 @@
+/* ------------ Medlem Start ---------- */
+.Medlem-wrap{
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f7f0f2;
+
+    h1{
+        font-size: $title;
+        font-family: $font;
+        color: $secondary-color;
+    }
+    p{
+        font-size: $bodytext;
+        font-family: $font;
+        color: $secondary-color;
+        font-weight: 400;
+        padding: 20px 50px 35px 50px;
+    }
+}
+
+
+.Medlem{
+    display: flex;
+}
+.Medlem-wrap{
+    width: 100%;
+}
+.medlem-imgs{
+    background-color: #F7F0F2;
+    padding: 20px;
+    
+    img{
+        padding: 5px;
+    }
+}
+
+
+/* ------------ Media Queries Start ---------- */
+// alt over 1024px bliver  vist
+@media only screen and  (min-width: 1024px) {
+    .medlem-imgs{
+        display: none;
+    }
+}
+// alt under 727px bliver ikke vist
+@media only screen and (max-width: 727px ) {
+    .medlem-imgs{
+        display: none;
+    }
+}
+/* ------------ Media Queries End ---------- */
+/* ------------ Medlem End ---------- */
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="icon" type="image/x-icon" href="../assets/logo/smuknu_fav.ico">
+    <title>Smuknu - Bliv medlem</title>
+</head>
+<body>
+  
+<!----------------  Navbar Start  ---------------->
+<div id="navbar"></div>
+<!---------------- Navbar End  ---------------->
+
+<!----------------  Hero Start  ---------------->
+<section class="Bliv-Medlem">
+
+    <div class="Bliv-Medlem-wrap">
+      <h1>BLIV MEDLEM</h1>
+      <p>Opret dig som medlem og få flere fordele og nyheder<br> I det øjeblik vi har dem. <br><br> Send gerne ris eller ros med når du melder dig ind, <br>vi er altid parate til dialog.</p>
+    </div>
+
+</section>
+<!----------------  Hero End  ---------------->
+
+<!----------------  Medlem Start  ---------------->
+<section id="medlem-container">
+  <div class="medlem-txt">
+      <form class="medlem-box">
+
+          <h1>Fulde navn</h1>
+          <input class="text field-1"  type="text" name="name" 
+          required>
+
+          <h1>E-mail</h1>
+          <input class="email field-2"  type="email" name="email" 
+          required>
+
+          <h1>Ris og/eller ros</h1>
+          <textarea class="message field-3" type="text" name="message" cols="50" rows="8"></textarea>
+          <button id="opret-btn" value="submit" type="submit">Opret</button>
+
+          <!-- Valid End -->
+        </form>
+        <!-- Valid Start -->
+        <div id="valid">
+          <section class="Valid-section">
+            <div class="Valid-wrap">
+              <h1 class="headline-valid">TAK!</h1>
+                <h1 class="nyt-medlem">Birthe Marie Hansen</h1>
+                  <p class="removes">Vi er enormt glade for at få dig som medlem.</p>
+                  <img class="removes" src="../assets/products/product_8281992819.jpg" alt="">
+                  <p class="removes">Kig I din inbox vi har sendt en lille velkomst gave.</p>
+                  <a href="index.html"><button class="btn">Til Forsiden</button></a>
+                  <br>
+                  <br>
+                  <a href="medlem.html"><h3 onclick="retry()">Prøv igen</h3></a>
+                </div>
+          </section>
+        </div>
+      </div>
+    </section>
+<!---------------- Medlem End  ---------------->
+
+<!----------------  Footer Start  ---------------->
+<div id="footer"></div>
+<!---------------- Footer End  ---------------->
+
+
+<!----------------  Scripts  ---------------->
+<script src="../js/index.js"></script>
+<script src="../js/components/navbar.js"></script>
+<script src="../js/components/footer.js"></script>
+<script src="../js/api/medlemApi.js"></script>
+</body>
+</html>
