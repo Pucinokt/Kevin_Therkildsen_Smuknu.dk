@@ -82,6 +82,10 @@ body {
   margin-top: 25px;
 }
 
+.fa-brands:hover {
+  color: #FA96AA;
+}
+
 /* ------------ Media Queries Start ---------- */
 @media (min-width: 1024px) {
   .footer-wrap {
@@ -145,18 +149,18 @@ nav ul {
   font-family: "Quicksand", sans-serif;
   position: relative;
 }
+nav a:hover {
+  color: #FA96AA;
+  -webkit-text-decoration: underline 2px solid;
+          text-decoration: underline 2px solid;
+  text-underline-offset: 6px;
+}
 
 a {
   color: inherit;
   text-decoration: none;
   color: black;
   text-decoration: none;
-}
-a:hover {
-  color: #FA96AA;
-  -webkit-text-decoration: underline 2px solid;
-          text-decoration: underline 2px solid;
-  text-underline-offset: 6px;
 }
 
 ul {
@@ -174,11 +178,6 @@ li {
 
 #burger, .icon {
   display: none;
-}
-
-.nav__link.active, .nav__link:hover {
-  border: 1px solid #ff4b4c;
-  color: #ff4b4c;
 }
 
 /* ------------  Media Queries Start ---------- */
@@ -233,6 +232,11 @@ li {
 }
 /* ------------  Media Queries End ---------- */
 /* ------------ Navbar End ---------- */
+.active {
+  color: black;
+  font-weight: bold;
+}
+
 /* ------------ Medlem Start ---------- */
 .Medlem-wrap {
   text-align: center;
@@ -847,12 +851,12 @@ input, textarea {
     flex-direction: row;
     margin-top: 30px;
   }
-  .review-heading {
+  .review-heading-1 {
     position: absolute;
     left: 90px;
     align-self: flex-end;
   }
-  .review-txt {
+  .review-txt-1 {
     text-align: left;
     margin-top: 40px;
   }
