@@ -22,11 +22,4 @@ for (i = 0; i < acc.length; i++) {
 }
 // accordion end
 
-// burgermenu start
-// functionen her i javascript fungere når on click på burgermenuen svg i index html så reagere
-// og tilføjes classen "show" til navbaren
-function menuShow() {
-  document.querySelector("#menu").classList.toggle("show");
-  }
-  // burgermenu end
 

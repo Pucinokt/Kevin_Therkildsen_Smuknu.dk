@@ -15,17 +15,23 @@
         font-size: 14px;
         font-weight: 400;
     }
-   
-
-
     .footer-wrap {
         width: 100%;
+
+
+        
+    // Social media icons
     .footer-item_1 {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
-
+        
+    .fa-brands:hover{
+        color: $primary-color;
+    }
+    
+    // Tekst
     .footer-item_2 {
         width: 100%;
         display: flex;
@@ -44,9 +50,6 @@
     }
 }
     
-}
-.fa-brands:hover{
-    color: $primary-color;
 }
 
 /* ------------ Media Queries Start ---------- */

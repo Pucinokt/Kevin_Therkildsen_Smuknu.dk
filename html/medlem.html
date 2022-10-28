@@ -29,29 +29,31 @@
 <!----------------  Medlem Start  ---------------->
 <section id="medlem-container">
   <div class="medlem-txt">
+
+    <!-- Form start -->
       <form class="medlem-box">
         <!-- Navn -->
           <h1>Fulde navn</h1>
-          <input class="text field-1"  type="text" name="name" 
-          required>
+          <input class="text field-1"  type="text" name="name" required>
         <!-- Email -->
           <h1>E-mail</h1>
-          <input class="email field-2"  type="email" name="email" 
-          required>
+          <input class="email field-2"  type="email" name="email" required>
         <!-- Message -->
           <h1>Ris og/eller ros</h1>
           <textarea class="message field-3" type="text" name="message" cols="50" rows="8"></textarea>
           <button id="opret-btn" value="submit" type="submit">Opret</button>
+      </form>
+    <!-- Form End -->
 
-        </form>
-        <!-- Valid Start -->
+
+      <!-- Valid Start -->
         <div id="valid">
           <section class="Valid-section">
             <div class="Valid-wrap">
               <h1 class="headline-valid">TAK!</h1>
               <h1 class="nyt-medlem"></h1>
               <p class="removes">Vi er enormt glade for at få dig som medlem.</p>
-              <img class="removes" src="../assets/products/product_8281992819.jpg" alt="">
+              <img class="removes" src="../assets/products/product_8281992819.jpg" alt="product-img">
               <p class="removes">Kig I din inbox vi har sendt en lille velkomst gave.</p>
               <a href="index.html"><button class="btn">Til Forsiden</button></a>
               <br>
@@ -60,8 +62,8 @@
             </div>
           </section>
         </div>
-        <!-- Valid End -->
-    </div>
+      <!-- Valid End -->
+  </div>
 </section>
 <!---------------- Medlem End  ---------------->
 
@@ -71,9 +73,11 @@
 
 
 <!----------------  Scripts  ---------------->
+
 <script src="../js/index.js"></script>
 <script src="../js/components/navbar.js"></script>
 <script src="../js/components/footer.js"></script>
 <script src="../js/api/medlemApi.js"></script>
+
 </body>
 </html>

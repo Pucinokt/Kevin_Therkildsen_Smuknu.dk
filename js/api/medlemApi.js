@@ -27,7 +27,9 @@ const onSubmit = use => {
     .then((use=>use.json()
     ))
 
-// nu bruger vi informationen hentet direkte fra api kaldet. Hvis det er sandt at name ikke er defineret, altså at brugeren er ny så SKAL navnet brugeren har skrevet vises i popup vinduet. Men hvis navnet/brugeren allerede findes så skal fejl beskeden herunder vises på skærmen.
+// nu bruger vi informationen hentet direkte fra api kaldet. Hvis det er sandt at name ikke er defineret, 
+// altså at brugeren er ny så SKAL navnet brugeren har skrevet vises i popup vinduet. 
+// Men hvis navnet/brugeren allerede findes så skal fejl beskeden herunder vises på skærmen.
     .then((use=>{
         undefined!==use.result.name?ny.innerHTML=use.result.name:(
         ny.innerHTML="Denne e-mail findes allerede, eller dine oplysninger er forkerte!",
